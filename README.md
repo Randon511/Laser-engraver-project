@@ -5,6 +5,12 @@ You can use the [editor on GitHub](https://github.com/Randon511/Laser-engraver-p
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ![Image 1](assets/image1.jpg)
+![Image 2](assets/image2.jpg)
+![Image 3](assets/image3.jpg)
+![Image 4](assets/image4.jpg)
+![Gif 1](assets/gif1.jpg)
+![Gif 2](assets/gif2.jpg)
+
 
 ### Markdown
 
