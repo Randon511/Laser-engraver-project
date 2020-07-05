@@ -8,8 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ![Image 2](assets/image2.jpg)
 ![Image 3](assets/image3.jpg)
 ![Image 4](assets/image4.jpg)
-![Gif 1](assets/gif1.jpg)
-![Gif 2](assets/gif2.jpg)
+![Gif 1](assets/gif1.gif)
+![Gif 2](assets/gif2.gif)
 
 
 ### Markdown
