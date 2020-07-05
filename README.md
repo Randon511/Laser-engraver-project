@@ -16,7 +16,7 @@ For this version, I refurbished a 3D printer. I used a [RAMBO](https://reprap.or
 
 One of the main reasons that I decided to make a second version was because I was having problems switching the laser on/off. The pin that controlled the laser on the arduino was next to limit switch pins. In some cases, when the laser was turned on/off and the relay switched, it would cause feedback which would trigger the limit switch pins next to it. The Rambo board I used also took 12 volts so I didnt have to use a relay to turn it on/off. 
 
-I was also having problems with the small stepper motors I was using. They were small and not designed to carry the load I was putting them under for the ammount of time they were running for so they would get bery hot and start melting things. 
+I was also having problems with the small stepper motors I was using. They were small and not designed to carry the load I was putting them under for the ammount of time they were running for so they would get very hot and start melting things. 
 
 ![Image 3](assets/image3.jpg)
 ![Image 4](assets/image4.jpg)
