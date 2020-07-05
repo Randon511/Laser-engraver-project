@@ -1,45 +1,20 @@
-## Welcome to GitHub Pages
+## First version
 
-You can use the [editor on GitHub](https://github.com/Randon511/Laser-engraver-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the first version of the laser engraver. For this version, I used an Arduino with the [GRBL](https://github.com/grbl/grbl) firmware as the brains of the unit. I used the trays from optical drives to use for X and Y axis movement since they use stepper motors. In addition to the stepper motors, the laser diodes used in optical drives can also be used but they are difficult to remove intact. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I used a 15 watt laser diode and it required 12 volts, however, the Arduino could only handle 5 volts. I used a modified pc power supply to provide the differenet voltages and used a relay between the laser and the arduino to switch it on and off.
+
 
 ![Image 1](assets/image1.jpg)
 ![Image 2](assets/image2.jpg)
-![Image 3](assets/image3.jpg)
-![Image 4](assets/image4.jpg)
 ![Gif 1](assets/gif1.gif)
 ![Gif 2](assets/gif2.gif)
 
+## Second Version
 
-### Markdown
+For this version, I refurbished a 3D printer. I used a [RAMBO](https://reprap.org/wiki/Rambo) mother board with [Marlin](https://marlinfw.org/) fimrware. This is actually a 3D printer firmware but it has support for laser engraving since the Gcodes for the two are very similar. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+One of the main reasons that I decided to make a second version was because I was having problems switching the laser on/off. The pin that controlled the laser on the arduino was next to limit switch pins. In some cases, when the laser was turned on/off and the relay switched, it would cause intereference which would trigger the limit switch pins next to it. The Rambo board I used also took 12 volts so I didnt have to use a relay to turn it on/off,
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Randon511/Laser-engraver-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Image 3](assets/image3.jpg)
+![Image 4](assets/image4.jpg)
